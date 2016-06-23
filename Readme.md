@@ -1,9 +1,30 @@
 #Behavior:
-Should add "ay" to very end of word for words that begin with a vowel
+Should add "ay" to end of apple and return appleay
 #Input:
 apple
 #Output:
 appleay
+
+#Behavior:
+Should add "ay" to the end of any word
+#Input:
+apricot
+#Output:
+apricotay
+
+#Behavior:
+Test if there is a vowel at the beginning of the word
+#Input:
+onion
+#Output:
+true
+
+#Behavior:
+Should add "ay" to very end of word for words that begin with a vowel
+#Input:
+orange
+#Output:
+orangeay
 
 #Behavior:
 Should move first consonant to end of word and add ay to very end if word begins with single consonant
